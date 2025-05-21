@@ -72,5 +72,3 @@ echo "----------------------------"
   Adjust the package manager commands if you are not using `apt` (e.g., use `dnf` or `yum` for CentOS/Fedora).
 - **Timezone:**  
   Change the timezone variable if you want local time for a different city (`TZ="Europe/Riga"`).
-
----
