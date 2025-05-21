@@ -1,6 +1,3 @@
-Вот твоя заметка с улучшенным оформлением в **Markdown**. Все команды и выводы консоли выделены как `code block`, список структурирован, текст остаётся плотным:
-
-````markdown
 # Fail2Ban: Basic Setup & SSH Protection
 
 Fail2Ban is a log-parsing application that protects Linux systems from various types of attacks, particularly those targeting services that interact with the internet, like SSH. The primary goal of Fail2Ban is to monitor log files for suspicious activity and dynamically modify firewall rules to block IP addresses of hosts exhibiting malicious behavior.
