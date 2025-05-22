@@ -1,3 +1,10 @@
+# Custom Welcome Message for Linux Terminal
+
+## 1. Save the Script
+
+Copy the script below and save it as `~/welcome.sh` in your home directory.
+
+```bash
 #!/bin/bash
 
 #  CUSTOM WELCOME MESSAGE
@@ -25,7 +32,6 @@ disk_usage=$(df -h / | awk 'NR==2 {print $5 " used of " $2}')
 echo -e "💾 Disk       : \e[1;36m$disk_usage\e[0m"
 
 # Memory usage
-
 mem_used=$(free -h | awk '/Mem:/ {print $3 " used of " $2}')
 echo -e "🧠 Memory     : \e[1;36m$mem_used\e[0m"
 
@@ -46,3 +52,35 @@ fi
 echo ""
 echo "Have a productive day, commander 🧠"
 echo ""
+````
+
+---
+
+## 2. Make the Script Executable
+
+```bash
+chmod +x ~/welcome.sh
+```
+
+---
+
+## 3. Activate the Welcome Message
+
+**Option 1: Run manually**
+
+**Show at every login (recommended)**
+
+Add this line at the end of your `~/.bashrc` (or `~/.zshrc` if you use zsh):
+
+```bash
+~/welcome.sh
+```
+
+To do this, use:
+
+```bash
+echo '~/welcome.sh' >> ~/.bashrc
+```
+
+Now, every time you open a new terminal or SSH session, your custom welcome message will appear.
+
