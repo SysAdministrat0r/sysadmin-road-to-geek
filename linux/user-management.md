@@ -1,8 +1,8 @@
-# 👤 Linux User Management – Basic Commands
+#  Linux User Management – Basic Commands
 
 ---
 
-## 🧑‍💻 1. Create a New User
+##  1. Create a New User
 
 ```bash
 sudo adduser <username>
@@ -13,7 +13,7 @@ sudo adduser <username>
 
 ---
 
-## 🔍 2. View User Info
+##  2. View User Info
 
 ### Basic account details (UID, GID, groups):
 
@@ -22,7 +22,7 @@ id <username>
 ```
 
 ### Full account entry from `/etc/passwd`:
-ЫЫ
+
 ```bash
 cat /etc/passwd | grep <username>
 ```
@@ -37,7 +37,7 @@ Output includes:
 
 ---
 
-## 👥 3. Group Management
+##  3. Group Management
 
 ### Show all groups the user belongs to:
 
@@ -61,7 +61,7 @@ sudo deluser <username> <groupname>
 
 ---
 
-## 🔑 4. Passwords and Switching Users
+##  4. Passwords and Switching Users
 
 ### Change a user’s password:
 
@@ -77,7 +77,7 @@ su <username>
 
 ---
 
-## 🔐 File Permissions
+##  File Permissions
 
 ### Change file/folder permissions:
 
