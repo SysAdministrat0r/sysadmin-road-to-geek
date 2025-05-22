@@ -1,4 +1,4 @@
-#  Linux User Management – Basic Commands
+# Linux User Management – Basic Commands
 
 ---
 

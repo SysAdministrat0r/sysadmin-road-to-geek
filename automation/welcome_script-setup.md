@@ -1,74 +1,48 @@
-# Custom System Summary Script (Bash) for Linux
-
----
-
-## What Does This Script Do?
-
-- Prints a short welcome message and current date/time (Riga time zone).
-- Shows disk usage for the root filesystem.
-- Displays current CPU load averages.
-- Displays memory usage (total and used).
-- Checks how many system updates are available (for apt-based systems).
-- Formats output for quick, readable system status at a glance.
-
----
-
-## Example Script
-
-```bash
 #!/bin/bash
 
-# -------- CUSTOM SYSTEM SUMMARY --------
-echo "----------------------------"
-echo "Welcome, Big Dog"
-echo -n "Date & Time (Riga): "
-TZ="Europe/Riga" date +"%Y-%m-%d %H:%M:%S"
-echo
+#  CUSTOM WELCOME MESSAGE
 
-echo "Disk Usage:"
-df -h / | awk 'NR==1 || NR==2 {print $1, $2, $3, $4, $5, $6}'
-echo
+echo ""
+echo "┌─────────────────────────────────────────────┐"
+echo "│       🐧 Welcome back, Kirill 🐾            │"
+echo "└─────────────────────────────────────────────┘"
+echo ""
 
-echo "CPU Load:"
-uptime | awk -F'load average:' '{print "Load average:" $2}'
-echo
+# Date & Time in Riga
+echo -e "📅 Date       : \e[1;36m$(TZ='Europe/Riga' date '+%A, %d %B %Y %H:%M:%S')\e[0m"
 
-echo "Memory Usage:"
-free -h | awk 'NR==1 || NR==2'
-echo
+# Hostname and IP
+hostname=$(hostname)
+ip=$(hostname -I | awk '{print $1}')
+echo -e "🖥️ Hostname    : \e[1;36m$hostname ($ip)\e[0m"
 
-echo -n "Available Updates: "
+# Uptime
+uptime_now=$(uptime -p)
+echo -e "⏳ Uptime     : \e[1;36m$uptime_now\e[0m"
+
+# Disk usage of root
+disk_usage=$(df -h / | awk 'NR==2 {print $5 " used of " $2}')
+echo -e "💾 Disk       : \e[1;36m$disk_usage\e[0m"
+
+# Memory usage
+
+mem_used=$(free -h | awk '/Mem:/ {print $3 " used of " $2}')
+echo -e "🧠 Memory     : \e[1;36m$mem_used\e[0m"
+
+# Load average
+load=$(uptime | awk -F'load average:' '{print $2}' | sed 's/^ //')
+echo -e "🔥 Load Avg   : \e[1;36m$load\e[0m"
+
+# Available updates (APT-based)
 if command -v apt &>/dev/null; then
     updates=$(apt list --upgradable 2>/dev/null | grep -v "Listing" | wc -l)
-    if [ "$updates" -eq 0 ]; then
-        echo "System up to date."
+    if [[ "$updates" -eq 0 ]]; then
+        echo -e "✅ Updates    : \e[1;32mSystem up to date\e[0m"
     else
-        echo "$updates package(s) can be updated!"
+        echo -e "⬆️ Updates    : \e[1;33m$updates package(s) available\e[0m"
     fi
 fi
-echo "----------------------------"
 
-##  How to Use
-
-1. **Save the script:**  
-   Example filename: `system_summary.sh`
-
-2. **Make it executable:**
-    ```bash
-    chmod +x system_summary.sh
-    ```
-
-3. **Run the script:**
-    ```bash
-    ./system_summary.sh
-    ```
-
-
-##  Tips
-
-- **Auto-run at SSH login:**  
-  Add this script to your `.bash_profile` or `.bashrc` to display the summary every time you log in via SSH.
-- **Different Linux distros:**  
-  Adjust the package manager commands if you are not using `apt` (e.g., use `dnf` or `yum` for CentOS/Fedora).
-- **Timezone:**  
-  Change the timezone variable if you want local time for a different city (`TZ="Europe/Riga"`).
+echo ""
+echo "Have a productive day, commander 🧠"
+echo ""
