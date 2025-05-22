@@ -1,0 +1,37 @@
+# 📒 Progress Log — May 19–26, 2025
+
+---
+
+##  **May 19 — Research & Setup**
+
+- Explored VPS providers, compared pricing and performance.
+- Chose **Hetzner** as the most optimal option (not sponsored).
+- Set up development environment in **Visual Studio Code**.
+- Installed and configured essential extensions:
+  - `Remote - SSH`
+  - `Remote Save` for editing files directly on the server.
+
+---
+
+##  **May 20 — First Deployments**
+
+- Rented the server and connected to it via SSH for the first time.
+- Initial setup of the server environment.
+- Attempted to install and configure **fail2ban**.
+- Faced configuration issues with `jail.local` and service startup failures.
+
+---
+
+##  **May 21 — System Hardening & GitOps**
+
+- Successfully configured and debugged **fail2ban** and **ufw**:
+  - Wrote a clean `jail.local`
+  - Enabled UFW and added safe firewall rules.
+- Changed default **SSH port** from `22` to `25022`:
+  - Updated `sshd_config`
+  - Allowed the new port in firewall
+  - Restarted SSH service safely without losing access.
+- Created a basic **custom welcome script** with system stats on login.
+- Cleaned up **GitHub branches**:
+  - Set correct default branch
+  - Deleted legacy or incorrectly named remote branches.
