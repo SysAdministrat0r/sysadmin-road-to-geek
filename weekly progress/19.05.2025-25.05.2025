@@ -35,3 +35,32 @@
 - Cleaned up **GitHub branches**:
   - Set correct default branch
   - Deleted legacy or incorrectly named remote branches.
+  
+  ---
+
+##  **May 22 — Users, Packages, Archives**
+
+- Explored package management — realized Hetzner ships with up-to-date packages.
+- Practiced creating/deleting Linux users, setting up permissions & groups.
+- Played with `tar` and compressed `tar.gz` archives.
+- Disabled direct **root** SSH login for extra security.
+
+---
+
+##  **May 23 — Services, Scripts & System Cleanup**
+
+- Got deeper into how **systemd services** work.
+- Installed **iptables**, but didn’t get to the config part yet.
+- Searched for cool admin scripts.
+- Wrote my own system cleanup script ([system-cleanup-setup.md](./automation/system-cleanup-setup.md)), learned a lot about safe temp file deletion and log rotation basics.
+
+---
+
+##  **Key takeaways this week**
+
+- Setting up a secure, working VPS isn’t that scary if you’re methodical and document each step.
+- Don’t rush: changing SSH ports or firewall rules without a backup plan = pain.
+- Automating cleanup and routine stuff early saves nerves down the road.
+- There’s always more than one right way — but making small mistakes teaches faster than reading about them.
+
+---
