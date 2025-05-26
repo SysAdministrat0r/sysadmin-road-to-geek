@@ -1,6 +1,6 @@
-# 🔒 Setting Up UFW on Debian VPS
+#  Setting Up UFW on Debian VPS
 
-## 🛠️ Basic UFW Setup Steps
+##  Basic UFW Setup Steps
 
 1. **Install UFW (if not installed):**
     ```bash
@@ -33,7 +33,7 @@
 
 ---
 
-## 📋 Example of My Current UFW Rules
+##  Example of My Current UFW Rules
 
 ```plaintext
 Status: active
