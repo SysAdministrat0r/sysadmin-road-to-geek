@@ -1,6 +1,5 @@
-# 🚀 SYSADMIN-ROAD-TO-GEEK
+Hi, I’m Kirill — currently working in IT support and steadily progressing toward becoming a skilled system administrator. I enjoy troubleshooting servers, writing scripts, and learning from real-world challenges along the way.
 
-Hi, I’m **Kirill** — working in IT support and on my way to becoming a proper sysadmin (yes, the one who fixes servers, writes scripts, and sometimes breaks stuff for real).
 
 > This repo is my public learning diary, cheat sheet, and a collection of real-world IT stories. Everything I study or try out in practice — you’ll find it here.
 
