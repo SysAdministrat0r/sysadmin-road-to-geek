@@ -1,53 +1,47 @@
-# 🚀 Sysadmin Road to Pro
+# SYSADMIN-ROAD-TO-GEEK
 
-Hi! I’m Kirill, an IT Support specialist with 1.5+ years of real-life experience — now going all-in to become a System Administrator.
+Hi!
 
-This repo is my open, honest roadmap: every week I’ll be documenting what I learn, what breaks, what works, and what doesn’t.  
-My goal: land a remote Sysadmin job within a year — and actually become someone who can build and support real infrastructure, not just follow checklists.
-
----
+I'm Kirill, working in IT support and on my way to becoming a solid system administrator. 
+This repo is my personal learning diary, cheat sheet, and a place where I honestly document everything I actually study and test out in practice.
 
 ## Why am I doing this?
 
-- **Accountability:** Sharing my progress in public keeps me motivated and (hopefully) consistent.
-- **Real practice:** No more just watching courses or reading docs — everything here is from my own hands-on experience.
-- **Help for others:** If you’re also starting out, maybe my notes, scripts, or “what went wrong” moments will save you time or nerves.
+I’ve noticed that if you don’t write things down, you just forget them. And if you share your notes publicly, there’s extra motivation not to slack off—and maybe it’ll help someone else too.  
+I keep things as simple as possible: less “blah-blah”, more screenshots, examples, and real-life fails.
 
+If you:
+- are just starting out as a sysadmin or IT specialist,
+- want to see where to begin (and how not to get lost in a sea of topics),
+- just love practical examples or want your own “second brain” for IT — you’re in the right place!
+
+## How do you find stuff and track progress here?
+
+- **weekly progress/** — Here I log what I did and learned each week (with actual dates, no sugarcoating).
+- **monthly milestones/** — My main goals and monthly “results” (where I crushed it, where I slacked off).
+- **projects/** — Mini-projects: setting up servers, building a VPN, automating tasks — with honest notes on what worked and what didn’t.
+- **issues/** — Real mistakes and problems: what broke, how I fixed it (so I don’t have to Google the same error ten times).
+- **commit history** — Everything in real time. You can see my progress.
+
+## What’s inside each folder?
+
+| Folder                | What’s inside and why you might care                    |
+|-----------------------|--------------------------------------------------------|
+| `automation/`         | Scripts that save time. If it can be automated, it’s here. |
+| `docs \ images/`      | Screenshots, diagrams, and quick notes — sometimes it’s just easier to show than explain. |
+| `issues/`             | My collection of “pitfalls”: errors, bugs, weird logs, and how I solved them. |
+| `linux/`              | Lifehacks, notes, and handy Linux commands.            |
+| `monthly milestones/` | Monthly goals, reviews, and honest self-reflection.    |
+| `networks/`           | Configs, tests, and network diagrams.                  |
+| `projects/`           | Real step-by-step mini-projects — from start to finish.|
+| `security/`           | Tips, checklists, and configs to keep servers (and myself) safe. |
+| `web/`                | Everything about web servers, hosting, and setup.      |
+| `weekly progress/`    | Weekly logs — learning, practice, and takeaways.       |
+| `README.md`           | What you’re reading now.                               |
+
+## How can this help you?
+
+- **For students & beginners:** Save time — grab templates, learn from my mistakes.
+- **For HR/teachers:** You can see I’m learning for real, not just ticking boxes.
+- **For fellow IT folks:** Find handy tips or just laugh at my failures.
 ---
-
-## 📂 Repo structure
-
-Here’s how everything is organized:
-
-| Folder         | What’s inside?                                                  |
-| -------------- | --------------------------------------------------------------- |
-| `automation`   | Bash scripts, cron jobs, simple automations                    |
-| `issues`       | My bugs, mistakes, and how I fixed them (personal StackOverflow)|
-| `linux`        | Linux commands, guides, how-tos                                |
-| `networks`     | Networking basics, topologies, configs, and diagrams           |
-| `web`          | Web services, Nginx/Apache configs, domain stuff               |
-| `weekly`       | Weekly progress updates, lessons learned, new skills           |
-| `milestones`   | Monthly retrospectives, major progress reports                 |
-| `docs`         | General docs, how-tos, useful links                            |
-| `projects`     | Mini projects, pet projects, real use cases                    |
-| `README.md`    | This file                                                      |
-
----
-
-## How to use this repo
-
-- Grab any script, checklist, or note that helps you.
-- Check the `/issues` folder if you’re running into the same weird problems as me.
-- Want to follow the journey? The `/weekly` folder is basically my public learning journal.
-- Have ideas, tips, or spot a mistake? Open an issue or just reach out!
-
----
-
-## What’s next?
-
-Every week (sometimes more), I’ll update with new notes, scripts, and honest feedback on what it’s like to move from IT Support to real Sysadmin work.  
-You can follow along, clone the repo, or just grab what you need for your own study path.
-
----
-
-*Thanks for stopping by! If you have advice, want to collab, or just say hi — DM me on LinkedIn or open an issue here.* ✌️
