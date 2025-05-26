@@ -40,7 +40,7 @@ I keep things **simple and honest**: less theory, more screenshots, real example
 | 📁 **Folder**           | 📝 **What’s inside & why you might care**                         |
 |------------------------|-------------------------------------------------------------------|
 | `automation/`          | Scripts and automation tricks to save time and nerves.            |
-| `docs \ images/`       | Screenshots, diagrams, and quick notes — sometimes pictures say more. |
+| `docs/images/`       | Screenshots, diagrams, and quick notes — sometimes pictures say more. |
 | `issues/`              | My collection of pitfalls: errors, bugs, weird logs, and fixes.   |
 | `linux/`               | Lifehacks, notes, and handy Linux commands.                       |
 | `monthly milestones/`  | Monthly goals, reviews, and self-reflection.                      |
