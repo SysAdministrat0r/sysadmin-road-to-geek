@@ -1,47 +1,69 @@
-# SYSADMIN-ROAD-TO-GEEK
+# 🚀 SYSADMIN-ROAD-TO-GEEK
 
-Hi!
+Hi, I’m **Kirill** — working in IT support and on my way to becoming a proper sysadmin (yes, the one who fixes servers, writes scripts, and sometimes breaks stuff for real).
 
-I'm Kirill, working in IT support and on my way to becoming a solid system administrator. 
-This repo is my personal learning diary, cheat sheet, and a place where I honestly document everything I actually study and test out in practice.
+> This repo is my public learning diary, cheat sheet, and a collection of real-world IT stories. Everything I study or try out in practice — you’ll find it here.
 
-## Why am I doing this?
+---
 
-I’ve noticed that if you don’t write things down, you just forget them. And if you share your notes publicly, there’s extra motivation not to slack off—and maybe it’ll help someone else too.  
-I keep things as simple as possible: less “blah-blah”, more screenshots, examples, and real-life fails.
+## 🤔 Why am I doing this?
 
-If you:
-- are just starting out as a sysadmin or IT specialist,
-- want to see where to begin (and how not to get lost in a sea of topics),
-- just love practical examples or want your own “second brain” for IT — you’re in the right place!
+- If you don’t write things down, you forget them.
+- Sharing notes in public keeps me motivated (no slacking off!).
+- Maybe someone else will find this useful — I’d love that.
 
-## How do you find stuff and track progress here?
+I keep things **simple and honest**: less theory, more screenshots, real examples, and actual fails.
 
-- **weekly progress/** — Here I log what I did and learned each week (with actual dates, no sugarcoating).
-- **monthly milestones/** — My main goals and monthly “results” (where I crushed it, where I slacked off).
-- **projects/** — Mini-projects: setting up servers, building a VPN, automating tasks — with honest notes on what worked and what didn’t.
-- **issues/** — Real mistakes and problems: what broke, how I fixed it (so I don’t have to Google the same error ten times).
-- **commit history** — Everything in real time. You can see my progress.
+---
 
-## What’s inside each folder?
+## 👀 Is this for you?
 
-| Folder                | What’s inside and why you might care                    |
-|-----------------------|--------------------------------------------------------|
-| `automation/`         | Scripts that save time. If it can be automated, it’s here. |
-| `docs \ images/`      | Screenshots, diagrams, and quick notes — sometimes it’s just easier to show than explain. |
-| `issues/`             | My collection of “pitfalls”: errors, bugs, weird logs, and how I solved them. |
-| `linux/`              | Lifehacks, notes, and handy Linux commands.            |
-| `monthly milestones/` | Monthly goals, reviews, and honest self-reflection.    |
-| `networks/`           | Configs, tests, and network diagrams.                  |
-| `projects/`           | Real step-by-step mini-projects — from start to finish.|
-| `security/`           | Tips, checklists, and configs to keep servers (and myself) safe. |
-| `web/`                | Everything about web servers, hosting, and setup.      |
-| `weekly progress/`    | Weekly logs — learning, practice, and takeaways.       |
-| `README.md`           | What you’re reading now.                               |
+- You’re just starting in sysadmin/IT and feel lost with all the topics.
+- You want practical, real-life examples (not just “hello world”).
+- You like the idea of a “second brain” for your IT journey.
+- Or you’re just curious how someone else learns IT in public.
 
-## How can this help you?
+---
 
-- **For students & beginners:** Save time — grab templates, learn from my mistakes.
-- **For HR/teachers:** You can see I’m learning for real, not just ticking boxes.
-- **For fellow IT folks:** Find handy tips or just laugh at my failures.
+## 🗂️ How to navigate this repo & what’s inside
+
+- **weekly progress/** — Weekly logs: what I did, what I learned, and where I failed (dates included, no sugarcoating).
+- **monthly milestones/** — Monthly goals, self-reviews, and honest reflections.
+- **projects/** — Mini-projects: from setting up servers and VPNs to automating stuff, with notes on what worked and what broke.
+- **issues/** — Real bugs and mistakes: what went wrong and how I fixed it (so I don’t have to Google the same thing ten times).
+- **commit history** — All my changes in real time — see my progress, step by step.
+
+---
+
+## 📦 What’s in each folder?
+
+| 📁 **Folder**           | 📝 **What’s inside & why you might care**                         |
+|------------------------|-------------------------------------------------------------------|
+| `automation/`          | Scripts and automation tricks to save time and nerves.            |
+| `docs \ images/`       | Screenshots, diagrams, and quick notes — sometimes pictures say more. |
+| `issues/`              | My collection of pitfalls: errors, bugs, weird logs, and fixes.   |
+| `linux/`               | Lifehacks, notes, and handy Linux commands.                       |
+| `monthly milestones/`  | Monthly goals, reviews, and self-reflection.                      |
+| `networks/`            | Configs, network tests, and diagrams.                             |
+| `projects/`            | Step-by-step mini-projects — from start to finish, the real way.  |
+| `security/`            | Tips, checklists, and configs to keep servers (and me) safe.      |
+| `web/`                 | Everything about web servers, hosting, and deployment.            |
+| `weekly progress/`     | Weekly learning logs and takeaways.                               |
+| `README.md`            | The file you’re reading right now.                                |
+
+---
+
+## 🔥 How can this help you?
+
+- **Students & beginners:** Save time — grab templates, learn from my mistakes.
+- **HR/teachers:** Proof that I’m learning for real, not just ticking boxes.
+- **Fellow IT folks:** Find useful tricks, scripts, or just laugh at my epic fails.
+
+---
+
+## 👾 Why this format?
+
+I don’t try to “fake success.”  
+You’ll see real progress — the wins and the fails — because IT is about learning by doing, not just reading.
+
 ---
