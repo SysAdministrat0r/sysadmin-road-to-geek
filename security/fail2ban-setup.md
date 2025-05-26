@@ -101,7 +101,7 @@ systemctl status fail2ban
 
 **Sample Output:**
 
-![fail2ban-output](docs/images/fail2ban-output.png)
+<img src="docs/images/fail2ban-output.png" style="width:100%">
 
 ---
 
