@@ -1,4 +1,4 @@
-# 🚪 Changing Default SSH Port (22 → 25022) on Debian
+# Changing Default SSH Port (22 → 25022) on Debian
 
 ## Why?
 Changing the default SSH port adds a basic layer of security and reduces automated attacks.
