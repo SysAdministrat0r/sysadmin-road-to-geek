@@ -101,6 +101,8 @@ systemctl status fail2ban
 
 **Sample Output:**
 
+
+```bash
 root@vps:~# systemctl status fail2ban
 ● fail2ban.service - Fail2Ban Service
      Loaded: loaded (/lib/systemd/system/fail2ban.service; enabled; preset: enabled)
@@ -112,6 +114,7 @@ root@vps:~# systemctl status fail2ban
         CPU: 503ms
      CGroup: /system.slice/fail2ban.service
              └─15873 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+```
 
 
 ---
