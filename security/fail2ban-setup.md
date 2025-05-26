@@ -102,7 +102,6 @@ systemctl status fail2ban
 **Sample Output:**
 
 <img src="docs/images/fail2ban.png" style="width:100%">
->>>>>>> a663f26430982d9a74c054c7d7e87539e454288b
 
 ---
 
@@ -134,3 +133,6 @@ If banned, trying to log in will show:
 root@vps:~# ssh root@<Your_IP_Address>
 ssh: connect to host <Your_IP_Address> port 22: Connection refused
 ```
+
+
+<img src="docs/images/fail2ban.png" style="width:100%">
