@@ -102,19 +102,7 @@ systemctl status fail2ban
 **Sample Output:**
 
 
-```bash
-root@vps:~# systemctl status fail2ban
-● fail2ban.service - Fail2Ban Service
-     Loaded: loaded (/lib/systemd/system/fail2ban.service; enabled; preset: enabled)
-     Active: active (running) since Fri 2023-11-10 22:05:03 UTC; 40min ago
-       Docs: man:fail2ban(1)
-   Main PID: 15873 (fail2ban-server)
-      Tasks: 5 (limit: 4644)
-     Memory: 14.0M
-        CPU: 503ms
-     CGroup: /system.slice/fail2ban.service
-             └─15873 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
-```
+![fail2ban](https://github.com/SysAdministrat0r/sysadmin-road-to-geek/blob/2d12d4bb540fd56d6a06ef3086cc13c69fcc78bd/docs/images/fail2ban.png)
 
 
 ---
@@ -148,4 +136,3 @@ root@vps:~# ssh root@<Your_IP_Address>
 ssh: connect to host <Your_IP_Address> port 22: Connection refused
 ```
 
-![fail2ban](https://github.com/SysAdministrat0r/sysadmin-road-to-geek/blob/2d12d4bb540fd56d6a06ef3086cc13c69fcc78bd/docs/images/fail2ban.png)
