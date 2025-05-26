@@ -148,4 +148,4 @@ root@vps:~# ssh root@<Your_IP_Address>
 ssh: connect to host <Your_IP_Address> port 22: Connection refused
 ```
 
-test ![fail2ban](https://github.com/SysAdministrat0r/sysadmin-road-to-geek/blob/2d12d4bb540fd56d6a06ef3086cc13c69fcc78bd/docs/images/fail2ban.png)
+![fail2ban](https://github.com/SysAdministrat0r/sysadmin-road-to-geek/blob/2d12d4bb540fd56d6a06ef3086cc13c69fcc78bd/docs/images/fail2ban.png)
