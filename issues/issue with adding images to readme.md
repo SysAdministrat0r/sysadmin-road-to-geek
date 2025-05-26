@@ -16,7 +16,7 @@ The working way is to upload the image via the GitHub UI and use a Markdown link
 6. Find and open the uploaded image file in the repo.
 7. Right-click the image and select **"Copy image link"**.
 8. Open your `README.md` file and click the pencil (edit) icon.
-9. Add the following Markdown code:
+9. Add the following Markdown code :
    ```markdown
    ![Alt text](image_url)
 
