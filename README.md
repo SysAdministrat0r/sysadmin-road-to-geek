@@ -1,5 +1,6 @@
-Hi, I’m Kirill — currently working in IT support and steadily progressing toward becoming a skilled system administrator. I enjoy troubleshooting servers, writing scripts, and learning from real-world challenges along the way.
+# 🚀 SYSADMIN-ROAD-TO-GEEK
 
+Hi, I’m **Kirill** — working in IT support and on my way to becoming a proper sysadmin (yes, the one who fixes servers, writes scripts, and sometimes breaks stuff for real).
 
 > This repo is my public learning diary, cheat sheet, and a collection of real-world IT stories. Everything I study or try out in practice — you’ll find it here.
 
@@ -26,10 +27,10 @@ I keep things **simple and honest**: less theory, more screenshots, real example
 
 ## 🗂️ How to navigate this repo & what’s inside
 
-- **weekly progress/** — Weekly logs: what I did, what I learned, and where I failed (dates included, no sugarcoating).
-- **monthly milestones/** — Monthly goals,  self-reviews, and honest reflections.
+- **weekly progress/** — Weekly logs: what I did, what I learned, and where I failed.
+- **monthly milestones/** — Monthly goals, self-reviews, and honest reflections.
 - **projects/** — Mini-projects: from setting up servers and VPNs to automating stuff, with notes on what worked and what broke.
-- **issues/** — Real bugs and mistakes: what went wrong and how I fixed it (so I don’t have to Google the same thing ten times).
+- **issues/** — Real bugs and mistakes: what went wrong and how I fixed it.
 - **commit history** — All my changes in real time — see my progress, step by step.
 
 ---
@@ -44,7 +45,7 @@ I keep things **simple and honest**: less theory, more screenshots, real example
 | `linux/`               | Lifehacks, notes, and handy Linux commands.                       |
 | `monthly milestones/`  | Monthly goals, reviews, and self-reflection.                      |
 | `networks/`            | Configs, network tests, and diagrams.                             |
-| `projects/`            | Step-by-step mini-projects — from start to finish, the real way.  |
+| `projects/`            | Step-by-step mini-projects — from start to finish.                |
 | `security/`            | Tips, checklists, and configs to keep servers (and me) safe.      |
 | `web/`                 | Everything about web servers, hosting, and deployment.            |
 | `weekly progress/`     | Weekly learning logs and takeaways.                               |
