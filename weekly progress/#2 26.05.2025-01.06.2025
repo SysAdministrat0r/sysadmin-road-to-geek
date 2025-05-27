@@ -1,0 +1,23 @@
+# 📒 Progress Log — May 26–27, 2025
+
+---
+
+## **May 26 — GitHub Branch Troubles & VS Code**
+
+* Spent 2–3 hours digging into GitHub branch problems and syncing with Visual Studio Code.
+* Faced some weird errors: couldn’t sync the changes to the right branch, had issues with the default branch, and got stuck on unknown conflicts.
+* Tried to document every bug and mistake in GitHub Issues (wrote short summaries for each).
+* In the end, decided to start from scratch: created a new working folder, opened it in VS Code, pulled the branch again — and suddenly everything just worked.
+* Lesson: Sometimes, it’s faster to “nuke and pave” your environment than to try fixing broken sync configs.
+
+---
+
+## **May 27 — Linux Services, Scripts & Troubleshooting**
+
+* Went deep into **systemd services** on Linux.
+* Wrote 4 new bash scripts and wrapped them as systemd services (both always-on and scheduled types).
+* Broke things on purpose: messed up unit files, watched logs via `systemctl status`, fixed timing/dependency issues for fun.
+* Figured out how to automate service restarts and fix classic errors (`start-limit-hit`, wrong paths, bad permissions, etc.).
+* Started keeping a running “gotchas” list for the most common systemd errors (see GitHub Issues).
+
+
