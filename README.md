@@ -28,7 +28,7 @@ I keep things **simple and honest**: less theory, more screenshots, real example
 ## 🗂️ How to navigate this repo & what’s inside
 
 - **weekly progress/** — Weekly logs: what I did, what I learned, and where I failed (dates included, no sugarcoating).
-- **monthly milestones/** — Monthly goals, self-reviews, and honest reflections.
+- **monthly milestones/** — Monthly goals,  self-reviews, and honest reflections.
 - **projects/** — Mini-projects: from setting up servers and VPNs to automating stuff, with notes on what worked and what broke.
 - **issues/** — Real bugs and mistakes: what went wrong and how I fixed it (so I don’t have to Google the same thing ten times).
 - **commit history** — All my changes in real time — see my progress, step by step.
