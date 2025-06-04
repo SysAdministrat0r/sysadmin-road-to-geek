@@ -169,11 +169,11 @@
 
 ### 📝 In Short
 
-* I explored more useful commands: `ls`, `file`, `less`.
-* I learned how to use `ls` options for detailed directory listings and how to read file attributes.
-* I can use `file` to determine the real content type of a file (not just by its name).
-* I can page through large text files safely with `less` (and not freeze my terminal).
-* I now know the purpose of the main Linux directories and what to find there.
-* I got a first look at symbolic and hard links, understanding why symlinks are crucial for flexible system management.
+- This chapter was mostly about exploring the Linux file system and getting comfortable with core commands like `ls`, `file`, and `less`.
+- It was a bit tricky to quickly remember all the `ls` options and fully understand what each field in the long format output means.
+- I found it interesting how Linux directories are so open for exploration, and how so many important files are just plain text that I can read with `less`.
+- The explanation about symbolic links made sense, but I feel like I’ll need more practice to really get how and when to use them.
+- The overview of system directories was actually fun — now I know where to look for logs, configs, or binaries.
+
 
 ---
