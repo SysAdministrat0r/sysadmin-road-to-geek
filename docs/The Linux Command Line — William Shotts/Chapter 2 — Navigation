@@ -95,11 +95,13 @@
 
 ### 📝 In Short
 
+  This chapter explained how the shell treats the directory structure of the
+  system. We learned about absolute and relative pathnames and the basic
+  commands that we use to move around that structure. In the next chapter,
+  we will use this knowledge to go on a tour of a modern Linux system.
+
 * I learned how the Linux file system is structured (single tree, root is `/`).
 * I can check my current directory with `pwd`.
-* I know how to list files with `ls`, and move around using `cd`.
-* I understand absolute vs. relative paths, and special notations (`.`, `..`).
-* I keep in mind key filename rules (hidden files, case sensitivity, no spaces).
 * I picked up some time-saving `cd` shortcuts.
 
 ---
