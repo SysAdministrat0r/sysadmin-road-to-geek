@@ -1,0 +1,94 @@
+# 📘 The Linux Command Line — William Shotts
+
+## Chapter 1 — What Is the Shell?
+
+---
+
+### 🖥️ Shell Prompt
+
+- The **shell prompt** looks like:
+  ```shell
+  [me@linuxbox ~]$
+````
+
+It usually includes `username@machinename`, current directory (`~` = home), and ends with a `$` (normal user) or `#` (superuser).
+
+---
+
+### 🔑 Superuser
+
+* If you see `#` instead of `$`, you have **root privileges**. Be careful!
+
+---
+
+### ⌨️ Typing Commands & Errors
+
+* Try typing any nonsense command:
+
+  ```shell
+  [me@linuxbox ~]$ kaekfjaeifj
+  bash: kaekfjaeifj: command not found
+  ```
+* If a command is not recognized, the shell tells you and gives a new prompt.
+
+---
+
+### ⬆️ Command History
+
+* Press `↑` (up arrow) to show previous commands (command history).
+* Use `←` and `→` to move the cursor and edit the current line.
+
+---
+
+### 📅 Simple Example Commands
+
+* Show date and time:
+
+  ```shell
+  date
+  ```
+* Show this month's calendar:
+
+  ```shell
+  cal
+  ```
+
+---
+
+### 🖥️ Virtual Consoles
+
+* On most Linux systems, you can open extra terminal sessions with:
+
+  * `Ctrl+Alt+F1` through `Ctrl+Alt+F6`
+  * Switch back to the graphical desktop: `Alt+F7`
+
+---
+
+### 💾 Disk & Memory Info
+
+* Check free disk space:
+
+  ```shell
+  df
+  ```
+* Check free memory:
+
+  ```shell
+  free
+  ```
+
+---
+
+### 🚪 Ending a Terminal Session
+
+* To exit, you can:
+
+  * Close the terminal window
+  * Type:
+
+    ```shell
+    exit
+    ```
+  * Or press `Ctrl+D`
+
+---
