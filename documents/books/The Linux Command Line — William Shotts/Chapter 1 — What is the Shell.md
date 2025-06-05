@@ -1,4 +1,4 @@
-````markdown
+
 # 📘 The Linux Command Line — William Shotts
 
 ## Chapter 1 — What Is the Shell?
@@ -10,7 +10,7 @@
 - The **shell prompt** looks like:
   ```shell
   [me@linuxbox ~]$
-````
+
 
 It usually includes `username@machinename`, current directory (`~` = home), and ends with a `$` (normal user) or `#` (superuser).
 
