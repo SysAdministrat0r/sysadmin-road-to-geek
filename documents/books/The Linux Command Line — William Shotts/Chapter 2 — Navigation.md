@@ -1,4 +1,4 @@
-````markdown
+
 ### 🌳 File System Structure
 
 - Linux uses a **hierarchical directory structure** (a single, tree-like system starting from `/`, the root).
@@ -13,7 +13,7 @@
 - To display it:
   ```shell
   pwd
-````
+
 
 *Example output:*
 

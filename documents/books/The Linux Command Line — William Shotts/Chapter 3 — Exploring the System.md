@@ -1,4 +1,4 @@
-````markdown
+
 ### 🔍 Useful Commands
 
 - `ls`: List directory contents
@@ -12,7 +12,7 @@
 - List current directory:
   ```shell
   ls
-````
+
 
 * List specific directories:
 
