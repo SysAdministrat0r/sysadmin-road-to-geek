@@ -1,3 +1,4 @@
+````markdown
 # 📘 The Linux Command Line — William Shotts
 
 ## Chapter 1 — What Is the Shell?
@@ -95,10 +96,7 @@ It usually includes `username@machinename`, current directory (`~` = home), and 
 
 ### 📝 Summing Up
 
-This chapter marked the beginning of our journey into the Linux command line, with an introduction to the shell, a glimpse of the command
-line, and a brief lesson on how to start and end a terminal session. We also
-saw how to issue some simple commands and perform a little light commandline editing. That wasn’t so scary, was it?
-In the next chapter, we’ll learn a few more commands and wander
-around the Linux file system.
+This chapter marked the beginning of our journey into the Linux command line, with an introduction to the shell, a glimpse of the command line, and a brief lesson on how to start and end a terminal session. We also saw how to issue some simple commands and perform a little light command-line editing.
+In the next chapter, we’ll learn a few more commands and wander around the Linux file system.
 
 ---
