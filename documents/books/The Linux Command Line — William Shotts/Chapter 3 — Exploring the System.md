@@ -1,3 +1,4 @@
+````markdown
 ### 🔍 Useful Commands
 
 - `ls`: List directory contents
@@ -169,11 +170,11 @@
 
 ### 📝 In Short
 
-- This chapter was mostly about exploring the Linux file system and getting comfortable with core commands like `ls`, `file`, and `less`.
-- It was a bit tricky to quickly remember all the `ls` options and fully understand what each field in the long format output means.
-- I found it interesting how Linux directories are so open for exploration, and how so many important files are just plain text that I can read with `less`.
-- The explanation about symbolic links made sense, but I feel like I’ll need more practice to really get how and when to use them.
-- The overview of system directories was actually fun — now I know where to look for logs, configs, or binaries.
-
+This chapter was mostly about exploring the Linux file system and getting comfortable with core commands like `ls`, `file`, and `less`.
+It was a bit tricky to quickly remember all the `ls` options and fully understand what each field in the long format output means.
+I found it interesting how Linux directories are so open for exploration, and how so many important files are just plain text that I can read with `less`.
+The explanation about symbolic links made sense, but I feel like I’ll need more practice to really get how and when to use them.
+The overview of system directories was actually fun — now I know where to look for logs, configs, or binaries.
 
 ---
+

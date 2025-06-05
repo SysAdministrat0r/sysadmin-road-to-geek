@@ -1,3 +1,4 @@
+````markdown
 ### 🌳 File System Structure
 
 - Linux uses a **hierarchical directory structure** (a single, tree-like system starting from `/`, the root).
@@ -95,13 +96,9 @@
 
 ### 📝 In Short
 
-  This chapter explained how the shell treats the directory structure of the
-  system. We learned about absolute and relative pathnames and the basic
-  commands that we use to move around that structure. In the next chapter,
-  we will use this knowledge to go on a tour of a modern Linux system.
-
-* I learned how the Linux file system is structured (single tree, root is `/`).
-* I can check my current directory with `pwd`.
-* I picked up some time-saving `cd` shortcuts.
+This chapter explained how the shell treats the directory structure of the system.
+The main focus was on absolute and relative pathnames and the basic commands to move around the structure.
+I noticed it can be tricky to remember all the path shortcuts at first, but the logic becomes clear after some practice.
+It was interesting to learn how all drives are part of one big tree and not separated by letters, like in Windows.
 
 ---
